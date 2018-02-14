@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_watch_later"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_eye"
+        android:title="Watch Later" />
+    <item
+        android:id="@+id/action_add_to_favorite"
+        android:orderInCategory="100"
+        android:title="Add to Favorite"
+        android:icon="@drawable/ic_favorite"/>
+</menu>
