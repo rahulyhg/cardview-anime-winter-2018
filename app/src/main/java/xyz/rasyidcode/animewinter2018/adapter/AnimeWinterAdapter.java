@@ -61,6 +61,7 @@ public class AnimeWinterAdapter extends RecyclerView.Adapter<AnimeWinterAdapter.
         MenuInflater inflater = popupMenu.getMenuInflater();
         inflater.inflate(R.menu.menu_anime_winter, popupMenu.getMenu());
         popupMenu.setOnMenuItemClickListener(new MyMenuClickListener());
+        popupMenu.show();
     }
 
     @Override
